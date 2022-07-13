@@ -14,10 +14,20 @@ h1 {
     color: #fffffc;
 }
 
+hr {
+    margin: 20px auto;
+    color: #730071;
+    border: 3px solid #730071;
+    max-width: 65px;
+    opacity: 1;  
+}
+
 .btn-primary {
     background-color: #ff3864;
     border-color: #ff3864;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding: 2rem 2.5rem;
     color: #fffffc;
     transition: all 1s;
 }
@@ -25,4 +35,5 @@ h1 {
 .btn-primary:hover {
     background-color: #ff785a;
     border-color: #ff785a;
+    transform: scale(0.9);
 }
