@@ -1,16 +1,24 @@
 @import url(https://fonts.bunny.net/css?family=epilogue:400,800);
 
-body {
-    background: url('Colored Patterns.svg') center center/cover no-repeat;
+html, body {
+    background: url('Colored Patterns.svg') center center/cover no-repeat fixed;
     min-height: 100vh;
     margin: 0;
     font-family: 'epilogue';
+    font-size: 62.5%;
     font-weight: 400;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #fffffc;
 }
 
 .btn-primary {
     background-color: #ff3864;
     border-color: #ff3864;
+    font-size: 1.6rem;
+    color: #fffffc;
     transition: all 1s;
 }
 
