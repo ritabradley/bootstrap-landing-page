@@ -42,3 +42,8 @@ hr {
     border-color: #ff785a;
     transform: scale(0.9);
 }
+
+.btn-primary:visited {
+    background-color: #730071;
+    border-color: #730071;
+}
