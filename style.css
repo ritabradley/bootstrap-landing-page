@@ -14,6 +14,11 @@ h1 {
     color: #fffffc;
 }
 
+p {
+    font-size: 2rem;
+
+}
+
 hr {
     margin: 20px auto;
     color: #730071;
